@@ -27,8 +27,8 @@ def perms(length):
     
     return p
 
-# obj was stored in an external file
-# obj = json.loads(open('data.json', 'r').read())
+
+obj = json.loads(open('data.json', 'r').read())
 
 maxMoveCount = range(2, 4+1)
 
